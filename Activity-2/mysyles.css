@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color:lavender;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    padding: 0 0 0 45px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+li{
+    display: inline;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{/*travel diaries*/
+    font-size: 30px;
+    font-style: italic;
+}
+.nav-links{/* Home blog ..... contact */
+    font-style: italic;
+    font-size: 30px;
+}
+.nav-links li{
+    margin: 0 10px 0 0;
+}
+#dubai{
+    width: 1250px; 
+    height: 300px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.bottom{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: rgba(90, 96, 103,0.9);
+}
+
+div.mytake,div.aboutme{
+    display: inline-flexbox;
+    width: 620px;
+    height: 50px;
+}
+/* #photo{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+} */

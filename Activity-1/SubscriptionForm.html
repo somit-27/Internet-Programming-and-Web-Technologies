@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe To My Blog</title>
+</head>
+<body>
+    <form action="get">
+        <fieldset>
+            <legend>Fill Out The Form</legend>
+            <label for="fname">First Name:<span class="required">*</span></label>
+            <div class="input">
+                <input type="text" id="fname" name="txtfname" size="12">
+            </div>
+            <label for="lname">Last Name:<span class="required">*</span></label>
+            <div class="input">
+                <input type="text" id="lname" name="txtlname" size="12">
+            </div>
+            <label for="email">Email:<span class="required">*</span></label>
+            <div class="input">
+                <input type="email" id="email" name="txtemail" size="20">
+            </div>
+            <label for="bday">Date Of Birth:<span class="required">*</span></label>
+            <div class="input">
+                <input type="date" id="date" name="txtdate" size="12">
+            </div>
+            <label for="lname">How did you reach here?<span class="required">*</span></label>
+            <div class="input">
+                <input type="radio" id="friends" name="txtfriend" size="12">Friends<br>
+                <input type="radio" id="family" name="txtfamily" size="12">Family<br>
+                <input type="radio" id="smedia" name="txtsmedia" size="12">Social Media<br>
+                <input type="radio" id="other" name="txtother" size="12">Other
+            </div>
+            <label for="genre">Subjects you like:<span class="required">*</span></label>
+            <div class="input">
+                <input type="checkbox" id="travel" name="txttravel" size="12">Travel<br>
+                <input type="checkbox" id="sports" name="txtsports" size="12">Sports<br>
+                <input type="checkbox" id="politics" name="txtpolitics" size="12">Politics<br>
+                <input type="checkbox" id="elec" name="txtelec" size="12">Electronics<br>
+            </div>
+            <label for="desc">Why do you want to subscribe:<span class="required">*</span></label>
+            <div class="input">
+                <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

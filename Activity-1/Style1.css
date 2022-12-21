@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(165, 217, 237);
+    color: rgb(55, 6, 141);
+}
+h1{
+    color: rgb(15, 2, 117);
+}
+#subs{
+    text-align: center;
+}
+#sub{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(15, 2, 117);
+}
+#subs:hover{
+    text-decoration: underline ;
+}
+/* #head{
+    padding-left: 3.6%;
+} */
+#me{
+    padding-left: 3.6%;
+    padding-right: 3.6%;
+}
+#course{
+    padding: 0 0 0 450px;
+}
+#fav{
+    padding: 0 0 0 450px;
+}
+#col1,#col2{
+    flex: left;
+    padding-left: 250px;
+}
