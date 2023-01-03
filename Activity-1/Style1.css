@@ -1,35 +1,137 @@
 body{
-    background-color: rgb(165, 217, 237);
-    color: rgb(55, 6, 141);
+    background-color: rgb(34, 33, 33);
+    color: rgb(200, 173, 0);
+    font-family: monospace;
+    font-size: large;
 }
 h1{
-    color: rgb(15, 2, 117);
+    color: rgb(1, 182, 238);
+    font-style: italic;
+    font-family: cursive;
+}
+h3{
+    color: rgb(200, 173, 0);
+}
+#about{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 182, 238);
 }
 #subs{
     text-align: center;
 }
 #sub{
     text-decoration: none;
-    font-size: 20px;
-    color: rgb(15, 2, 117);
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(200, 173, 0);
 }
 #subs:hover{
     text-decoration: underline ;
 }
-/* #head{
-    padding-left: 3.6%;
-} */
+#courselist{
+    color: rgb(1, 182, 238);
+}
 #me{
     padding-left: 3.6%;
     padding-right: 3.6%;
+    color: rgb(1, 182, 238);
+}
+#tag{
+    color: rgb(1, 182, 238);
 }
 #course{
-    padding: 0 0 0 450px;
+    margin: auto;
+    width: 25%;
+    padding: 10px;
 }
 #fav{
-    padding: 0 0 0 450px;
+    margin: auto;
+    width: 15%;
+    padding: 10px;
 }
-#col1,#col2{
+#col1{
     flex: left;
-    padding-left: 250px;
+    padding: 0 0 0 25%;
+}
+#col2{
+    flex: left;
+    padding: 0 0 0 55%;
+}
+#happy,#sad{
+    width: 250px;
+    height: 250px;
+    float: left;
+    display: block;
+}
+.titles{
+    padding-left: 30%;
+    word-spacing: 22em;
+}
+#covid{
+    height: 180;
+    width: 230;
+    float: left;
+}
+#fact{
+    text-align: center;
+}
+#txtcovid{
+    text-align: justify;
+    color: rgb(1, 182, 238);
+}
+#contact{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+#cont{
+    color: rgb(200, 173, 0);
+}
+
+/* CONTACT STYLE */
+th{
+    color: rgb(1, 182, 238);
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+td{
+    text-align: center;
+    padding: 20px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3ex;
+}
+h2{
+    text-align: center;
+}
+
+/* FORM STYLE*/
+form{
+    margin: auto;
+    width: 30%;
+}
+legend{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: cursive;
+}
+fieldset{
+    padding: 4ex;
+}
+input,textarea{
+    background-color: rgb(34, 33, 33);
+    border-color: rgb(1, 182, 238);
+    color: rgb(1, 182, 238)
+}
+#submit{
+    background-color: gb(34, 33, 33);
+    color: rgb(1, 182, 238);
+    font-weight: bolder;
 }

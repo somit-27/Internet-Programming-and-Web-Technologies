@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style1.css">
     <title>Subscribe To My Blog</title>
 </head>
 <body>
@@ -26,12 +27,12 @@
             <div class="input">
                 <input type="date" id="date" name="txtdate" size="12">
             </div>
-            <label for="lname">How did you reach here?<span class="required">*</span></label>
+            <label for="place">How did you reach here?<span class="required">*</span></label>
             <div class="input">
-                <input type="radio" id="friends" name="txtfriend" size="12">Friends<br>
-                <input type="radio" id="family" name="txtfamily" size="12">Family<br>
-                <input type="radio" id="smedia" name="txtsmedia" size="12">Social Media<br>
-                <input type="radio" id="other" name="txtother" size="12">Other
+                <input type="radio" id="friends" name="txtplace" size="12">Friends
+                <input type="radio" id="family" name="txtplace" size="12">Family
+                <input type="radio" id="smedia" name="txtplace" size="12">Social Media
+                <input type="radio" id="other" name="txtplace" size="12">Other
             </div>
             <label for="genre">Subjects you like:<span class="required">*</span></label>
             <div class="input">
@@ -44,6 +45,8 @@
             <div class="input">
                 <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
             </div>
+            <input type="submit" id="submit">
+            <input type="reset" id="submit">
         </fieldset>
     </form>
 </body>
