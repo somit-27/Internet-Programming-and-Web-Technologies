@@ -40,16 +40,16 @@ a{
     color: rgb(1, 182, 238);
 }
 #tag{
-    color: rgb(1, 182, 238);
+    color: rgb(200, 173, 0);
 }
 #course{
     margin: auto;
-    width: 25%;
+    width: 32%;
     padding: 10px;
 }
 #fav{
     margin: auto;
-    width: 15%;
+    width: 20%;
     padding: 10px;
 }
 #col1{
