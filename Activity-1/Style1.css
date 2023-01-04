@@ -135,3 +135,11 @@ input,textarea{
     color: rgb(1, 182, 238);
     font-weight: bolder;
 }
+#gen,#pl{
+    color: rgb(1, 182, 238);
+}
+#peop{
+    background-color: rgb(34, 33, 33);
+    color: rgb(1, 182, 238);
+    border-color: rgb(1, 182, 238);
+}
