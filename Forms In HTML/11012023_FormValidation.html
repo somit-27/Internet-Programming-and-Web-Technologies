@@ -1,0 +1,67 @@
+<!-- Write  HTML code for an online product entry form that includes the following:
+ Product ID with 2 input types one with Text(length:3) and other with Code (length:6) Format (ABC -237638)
+ Product Name (Maximum string length accepted : 50)
+ Quantity (Drop menu maximum only 10)
+ Prize ( min 100 and maximum upto 9999)
+ Total Value (with no X prize)
+ Date of Purchase (Format : DD/MM//YYYY)
+ Mobile and E-Mail Validity
+*Perform Empty field validations for all the fields -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prod.css">
+    <title>Product </title>
+</head>
+<body>
+    <form oninput="res.value = quant.value*price.value">
+        
+        <fieldset>
+            <legend>Online Product Entry Form</legend>
+            <label for="prodID">ProductID:</label>
+            <input type="text" required pattern="[A-Za-z]{3}[ ][-]{1}" placeholder="ABC -">
+            <input type="text" required pattern="[0-9]{6}" placeholder="123456">
+            <br>
+            <label for="name">Product Name:</label>
+            <input type="text" required maxlength="50" placeholder="Max length 50">
+            <br>
+            <label for="quantity">Quantity:</label>
+            <select name="quant" id="quant">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <label for="price">Price:</label>
+            <input type="number" required min="100" max="9999" id="price" placeholder="Enter price">
+            <br>
+            <div>
+                <label for="total">Total Value:</label>
+                <output for="quant name" name="res">
+                <br>
+            </div>
+            <label for="date">Date Of Purchase:</label>
+            <input type="date">
+            <br>
+            <label for="phone">Phone No:</label>
+            <input type="text" required placeholder="+91 12345 67890" pattern="[+]{1}[0-9]{2,3}[ ][0-9]{5}[ ][0-9]{5}">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" required placeholder="abc@gmail.com">
+            <br>
+            <input type="submit" name="sub" id="sub" value="submit">
+            <br>
+        </fieldset>
+    </form>
+</body>
+</html>

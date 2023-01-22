@@ -1,0 +1,44 @@
+<!-- Write  HTML code for an online product entry form that includes the following:
+ Product ID with 2 input types one with Text(length:3) and other with Code (length:6) Format (ABC -237638)
+ Product Name (Maximum string length accepted : 50)
+ Quantity (Drop menu maximum only 10)
+ Prize ( min 100 and maximum upto 9999)
+ Total Value (with no X prize)
+ Date of Purchase (Format : DD/MM//YYYY)
+ Mobile and E-Mail Validity
+*Perform Empty field validations for all the fields -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prod.css">
+    <script src="formValidate18012023.js"></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <form action="#" name="FormVal" onsubmit="return validate()">
+        <fieldset>
+            <legend>Subscription</Form></legend>
+            <label for="name">Name:</label>
+            <input type="text" name = "username">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="abc@gmail.com">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <br>
+            <label for="cpassword">Confirm Password:</label>
+            <input type="cpassword" id="cpassword">
+            <br>
+            <label for="phone">Phone No:</label>
+            <input type="text" name="phone" placeholder="+91 12345 67890">
+            <br>
+            <input type="submit" name="sub" id="sub" value="submit">
+            <br>
+        </fieldset>
+    </form>
+</body>
+</html>

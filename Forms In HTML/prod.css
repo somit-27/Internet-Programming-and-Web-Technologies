@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(34, 33, 33);
+    color: rgb(200, 173, 0);
+    /* border-color: rgb(1, 182, 238); */
+    text-align: center;
+    font-size: larger;
+}
+
+input{
+    background-color: rgb(34, 33, 33);
+    border-color: rgb(1, 182, 238);
+    color: rgb(1, 182, 238)
+}
+#sub{
+    color: rgb(200, 173, 0);
+}
