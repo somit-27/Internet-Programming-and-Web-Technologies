@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Workshop Registration</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div class="title">
+                    <h3>Workshop Registration</h3>
+                </div>
+                <div class="more">More actions</div>
+            </div>
+                <form name = "Workshop" onsubmit="return validate();">
+                    <div id="left">
+                        <p><u>Register now while seats are available!</u></p>
+                        <br>
+                        <label for = "fname">First Name <span>*</span></label>
+                        <input type = "text" name = "fname" id = "fname" required>
+                        <br>
+                        <label for = "lname">Last Name <span>*</span></label>
+                        <input type = "text" name = "lname" id = "lname" required>
+                        <br>
+                        <label for = "comins">Company/Institution<span>*</span></label>
+                        <input type = "text" name = "comins" id = "comins">
+                        <br>
+                        <label for = "addr" id="addr">Address 
+                        <span>*</span></label>
+                        <textarea rows="5" cols = "30" name="addr"></textarea>
+                        <br>
+                        <label for = "city">City <span>*</span></label>
+                        <input type = "text" name = "city" id = "city">
+                        <br>
+                        <label for = "state">State/Province/Region</label>
+                        <select name = "state" id = "state">
+                        <option value = "-1">-Select-</option>
+                        <option value = "Maha">Maharshtra</option>
+                        <option value = "MP">Madhya Pradesh</option>
+                        <option value = "TN">Tamil Nadu</option>
+                        </select>
+                        <br>
+                        <label for = "country">Country</label>
+                        <select name = "country" id = "country">
+                        <option value = "-1">-Select-</option>
+                        <option value = "India">India</option>
+                        <option value = "Dub">Dubai</option>
+                        <option value = "Sing">Singapore</option>
+                        </select>
+                        <br>
+                        <label for = "email">Email <span>*</span></label>
+                        <input type = "email" name = "email" id = "email">
+                        <br>
+                        <label for = "phone">Phone Number <span>*</span></label>
+                        <input type = "tel" name = "tele" id = "tele" class = "tele">
+                    </div>
+                    <div id="right">
+                        <p><u>Lunch</u></p>
+                        <label for = "meal">Meal Preference</label>
+                        <select name = "meal" id = "meal">
+                        <option value = "-1">-Select-</option>
+                        <option value = "veg">Vegetarian</option>
+                        <option value = "nonveg">Non Vegetarian</option>
+                        </select>
+                        <br>
+                        <p><u>Payment Details</u></p>
+                        <div id="pay">
+                            <label for = "mode">Payment Mode</label>
+                            <div class="opt">
+                                <input type="checkbox" name = "cash" id = "cash">Cash<br>
+                                <input type="checkbox" name = "dd" id = "dd">Demand Draft<br>
+                                <input type="checkbox" name = "cheque" id ="cheque">Cheque<br>
+                            </div>
+                        </div>
+                        <label for = "ddcno">DD/Cheque No.</label>
+                        <input type="text" name = "ddcno" id = "ddcno">
+                        <br>
+                        <label for = "bname">Drawn on(Bank name)</label>
+                        <input type = "text" name = "bname" id = "bname">
+                        <br>
+                        <label for = "payat">Payable at</label>
+                        <input type="text" name="payat" id = "payat">
+                    </div>
+                    <div id="las">
+                        <input type="submit" value = "Submit">
+                        <input type = "reset" value = "Reset">
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>

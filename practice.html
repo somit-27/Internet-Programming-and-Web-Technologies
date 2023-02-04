@@ -17,23 +17,82 @@
     </body>
 </html> -->
 <html>
-<head>
-<title>Reference a variable without declaration</title>
-<script language="javascript">
-<!--
-yourname = prompt("What is your name?","Type your name here ...");
-alert(yourname);
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style id="compiled-css" type="text/css">
+#highlights {
+   min-height:526px;
+   width:1171px;
+   margin:0 auto;
+}
 
-yourname2 = yourname;
-alert(yourname2);
+#highlights div[class*="high-"] {
+   border:2px solid Chartreuse;
+   display:inline-block;
+   float:left;
+   height:151px;
+   margin:11px;
+   position:relative;
+   width:calc(34% - 21px);
+   overflow:hidden;
+}
 
-yourname = prompt("Type something different in","Something different ...");
-alert(yourname);
-alert(yourname2);
-//  -->
-</script>
-</head>
-<body>
-<h1>Reference a variable without declaration</h1>
-</body>
+#highlights .image {
+   height:100%;
+   transition:all 2.3s ease;
+}
+
+#highlights p {
+   bottom:0;
+   height:61px;
+   margin-bottom:0px;
+   position:absolute;
+   opacity:0.8;
+   transition:all 0.7s ease;
+   transform:translateY(61px);
+}
+
+#highlights span {
+   display:block;
+   font-size:13px;
+   margin:3px;
+}
+
+#highlights:hover p {
+   transform:translateY(0px);
+   background:yellow;
+   color:blue;
+}
+
+#highlights:hover .image {
+   transform:all 6s ease;
+   margin-right:-51px;
+}
+
+#highlights .high-rinoplastia .image {
+   background:url('D:\ACADEMICS_VIT\ACADEMIC\2022-23\WINTER_2022-23\CSE2015\THEORY\PPTs\MODULE-2\DEMOS\chrome.png') no-repeat right center;
+}
+
+#highlights .high-venas .image {
+   background:url('D:\ACADEMICS_VIT\ACADEMIC\2022-23\WINTER_2022-23\CSE2015\THEORY\PPTs\MODULE-2\DEMOS\chrome.png') no-repeat right center;
+}
+
+#highlights .high-cirugiaCalvicie .image {
+   background:url('D:\ACADEMICS_VIT\ACADEMIC\2022-23\WINTER_2022-23\CSE2015\THEORY\PPTs\MODULE-2\DEMOS\chrome.png') no-repeat right center;
+}
+
+#highlights .high-tratamientoCalvicie .image {
+   background:url('D:\ACADEMICS_VIT\ACADEMIC\2022-23\WINTER_2022-23\CSE2015\THEORY\PPTs\MODULE-2\DEMOS\chrome.png') no-repeat right center;
+}
+</style> 
+ </head> 
+ <body> 
+  <article id="highlights"> 
+   <div class="high-rinoplastia"> 
+    <div class="image"> 
+    </div> 
+    <p> <strong>HOVER UP</strong> <br> <span>MOVING ANIMATION TO THE HTML</span> </p> 
+   </div> 
+  </article>  
+ </body>
 </html>

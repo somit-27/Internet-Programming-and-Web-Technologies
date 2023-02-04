@@ -12,7 +12,7 @@ function validate(){
         alert("Enter correct email");
         return false;
     }
-    var paasf = /^[A-Z](?=.*[a-z])$/;
+    var paasf = /^[A-Z](?=.*[a-z])(?=.*\d)(?=.*[@$*&])[A-Za-z\d@$*&]{8,15}$/;
     if(document.FormVal.password.value==""){
         alert("Enter Password");
         return false;
